@@ -44,6 +44,9 @@
     </script>
 </body>
 </html>
-<script>
-    document.getElementById("header").style.display = "none";
-</script>
+
+#header {
+    display: none; /* hides the entire header */
+    /* or */
+    visibility: hidden; /* hides the repository name but keeps the header */
+}
