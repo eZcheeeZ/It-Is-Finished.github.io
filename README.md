@@ -19,12 +19,9 @@
 
     <div id="result"></div>
 
-     <button id="visitButton" onclick="visitGotQuestions()" style="display: none;">Visit GotQuestions.org</button>
-
     <script>
         const certaintyInput = document.getElementById("certainty");
         const certaintyLabel = document.getElementById("certaintyLabel");
-        const visitButton = document.getElementById("visitButton");
 
         certaintyInput.addEventListener("input", () => {
             certaintyLabel.innerText = certaintyInput.value;
@@ -45,35 +42,13 @@
             }
         }
     </script>
-                `;
-                resultDiv.innerHTML = message;
+    <button onclick="visitGotQuestions()">Visit GotQuestions.org</button>
 
-                // Show the "Visit GotQuestions.org" button
-                visitButton.style.display = "block";
-            } else {
-                alert("Please answer both questions.");
-            }
-        }
+<script>
+    function visitGotQuestions() {
+        window.location.href = "https://www.gotquestions.org/";
+    }
+</script>
 
-        function visitGotQuestions() {
-            window.location.href = "https://www.gotquestions.org/";
-        }
-    </script>
-
-    <script>
-        const certaintyInput = document.getElementById("certainty");
-        const certaintyLabel = document.getElementById("certaintyLabel");
-
-        certaintyInput.addEventListener("input", () => {
-            certaintyLabel.innerText = certaintyInput.value;
-        });
-
-        function checkAnswers() {
-            const certainty = certaintyInput.value;
-            const reason = document.getElementById("reason").value;
-
-            if (reason !== "") {
-                const resultDiv = document.getElementById("result");
-                const message = `
 </body>
 </html>
