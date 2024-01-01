@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +8,7 @@
 <body>
     <h1>Gospel Quiz</h1>
     
-    <p>Between 1 and 10, how certain are you that you'd go to Heaven right now?</p>
+    <p>Between 1 and 10, 1 being unsure and 10 being absolutely certain, how certain are you that if you died right now that you'd go to Heaven?</p>
     <input type="number" id="certainty" min="1" max="10">
     
     <p>If you stood at the gates of Heaven and God asked, "Why should I let you in?" what would you say?</p>
