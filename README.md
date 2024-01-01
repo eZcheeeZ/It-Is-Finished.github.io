@@ -41,44 +41,13 @@
                 alert("Please answer both questions.");
             }
         }
-    </script>
-    <button onclick="checkAnswers()">Submit</button>
+    <button onclick="visitGotQuestions()">Visit GotQuestions.org</button>
 
-    <div id="result"></div>
+<script>
+    function visitGotQuestions() {
+        window.location.href = "https://www.gotquestions.org/";
+    }
+</script>
 
-    <button id="visitButton" onclick="visitGotQuestions()" style="display: none;">Visit GotQuestions.org</button>
-
-    <script>
-        const certaintyInput = document.getElementById("certainty");
-        const certaintyLabel = document.getElementById("certaintyLabel");
-        const visitButton = document.getElementById("visitButton");
-
-        certaintyInput.addEventListener("input", () => {
-            certaintyLabel.innerText = certaintyInput.value;
-        });
-
-        function checkAnswers() {
-            const certainty = certaintyInput.value;
-            const reason = document.getElementById("reason").value;
-
-            if (reason !== "") {
-                const resultDiv = document.getElementById("result");
-                const message = `
-                    <p>When a sheep stands in the forest you will think he looks white as snow. But then it starts to snow and the forest becomes snow covered and you see just how dirty he actually is...</p>
-                    <!-- (rest of the message) -->
-                `;
-                resultDiv.innerHTML = message;
-
-                // Show the "Visit GotQuestions.org" button
-                visitButton.style.display = "block";
-            } else {
-                alert("Please answer both questions.");
-            }
-        }
-
-        function visitGotQuestions() {
-            window.location.href = "https://www.gotquestions.org/";
-        }
-    </script>
 </body>
 </html>
