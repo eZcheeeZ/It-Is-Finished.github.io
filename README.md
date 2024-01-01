@@ -41,13 +41,6 @@
                 alert("Please answer both questions.");
             }
         }
-    <button onclick="visitGotQuestions()">Visit GotQuestions.org</button>
-
-<script>
-    function visitGotQuestions() {
-        window.location.href = "https://www.gotquestions.org/";
-    }
-</script>
-
+    </script>
 </body>
 </html>
