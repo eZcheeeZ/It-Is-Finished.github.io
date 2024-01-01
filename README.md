@@ -6,7 +6,7 @@
     <title>ezcheeez.github.io</title>
 </head>
 <body>
-    <h1>Can I ask you two questions?</h1>
+    <h1>ezcheeez.github.io</h1>
     
     <p>On a scale from 1 to 10, 1 being not so sure and 10 being absolutely certain, how certain are you that you'd go to Heaven if you died right now?</p>
     <input type="range" id="certainty" min="1" max="10" value="5">
