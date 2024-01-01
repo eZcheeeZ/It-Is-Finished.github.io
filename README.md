@@ -52,4 +52,3 @@
 
 </body>
 </html>
-![image](https://github.com/eZcheeeZ/ezcheeez.github.io/assets/105387070/3b849217-375e-449c-8617-93325a69b7d2)
