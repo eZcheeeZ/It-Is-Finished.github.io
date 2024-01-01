@@ -8,7 +8,7 @@
 <body>
     <h1>Can I ask you two questions?</h1>
     
-    <p>On a scale from 1 to 10, 1 being not so sure and 10 being absolutely certain, if you died right now how certain are you that you'd go to Heaven?</p>
+    <p>On a scale from 1 to 10, 1 being not so sure and 10 being absolutely certain, how certain are you that you'd go to Heaven if you died right now?</p>
     <input type="range" id="certainty" min="1" max="10" value="5">
     <p id="certaintyLabel">5</p>
     
@@ -42,13 +42,5 @@
             }
         }
     </script>
-    <button onclick="visitGotQuestions()">Visit GotQuestions.org</button>
-
-<script>
-    function visitGotQuestions() {
-        window.location.href = "https://www.gotquestions.org/";
-    }
-</script>
-
 </body>
 </html>
