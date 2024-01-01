@@ -42,5 +42,13 @@
             }
         }
     </script>
+    <button onclick="visitGotQuestions()">Visit GotQuestions.org</button>
+
+<script>
+    function visitGotQuestions() {
+        window.location.href = "https://www.gotquestions.org/";
+    }
+</script>
+
 </body>
 </html>
