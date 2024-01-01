@@ -1,11 +1,4 @@
 <html lang="en">
-    
-    #header {
-display: none; /* hides the entire header */
-    /* or */
-    visibility: hidden; /* hides the repository name but keeps the header */
-}
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
