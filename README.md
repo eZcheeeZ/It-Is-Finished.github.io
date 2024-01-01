@@ -37,8 +37,14 @@
             if (reason !== "") {
                 const resultDiv = document.getElementById("result");
                 const message = `
-                    <p>When a sheep stands in the forest you will think he looks white as snow. But then it starts to snow and the forest becomes snow covered and you see just how dirty he actually is...</p>
-                    <!-- (rest of the message) -->
+                    <p>When a sheep stands in the forest you will think he looks white as snow. But then it starts to snow and the forest becomes snow covered and you see just how dirty he actually is. In the same way, when we compare ourselves to others horizontally, we feel righteous. I mean we haven’t done as much evil as people we’ve heard about (Luke 18:9-14). That’s us standing in the forest before it snowed. When we compare ourselves vertically, however, to Gods standard - the 10 Commandments, with humility, we finally see just how dirty we are (Romans 3:23). That's us after the snow has fallen. The 10 Commandments act as a mirror, and the realization that our hearts are wicked and deceitful beyond measure and we are desperately hopeless and in need of saving (Romans 6:23). Without this foundational understanding, the Gospel message of Jesus that we’ve been inoculated to (Ephesians 2:8-9), doesn’t carry much weight because on the horizontal plane, we aren’t that bad. The Good News of the Gospel has always been, you can be a 10/10 certainty that you will go to Heaven, if your reason in the hypothetical situation God asks, “why should I let you in,” is “because Jesus” (Romans 10:9; 1 John 5:13). If your answer is “because I,” it highlights a misunderstanding of how your sin separates you from God and/or how Jesus took death row on  your behalf for the laws you broke, and the judge declared you innocent.</p>
+                `;
+                resultDiv.innerHTML = message;
+            } else {
+                alert("Please answer both questions.");
+            }
+        }
+    </script>
                 `;
                 resultDiv.innerHTML = message;
 
@@ -69,21 +75,5 @@
             if (reason !== "") {
                 const resultDiv = document.getElementById("result");
                 const message = `
-                    <p>When a sheep stands in the forest you will think he looks white as snow. But then it starts to snow and the forest becomes snow covered and you see just how dirty he actually is. In the same way, when we compare ourselves to others horizontally, we feel righteous. I mean we haven’t done as much evil as people we’ve heard about (Luke 18:9-14). That’s us standing in the forest before it snowed. When we compare ourselves vertically, however, to Gods standard - the 10 Commandments, with humility, we finally see just how dirty we are (Romans 3:23). That's us after the snow has fallen. The 10 Commandments act as a mirror, and the realization that our hearts are wicked and deceitful beyond measure and we are desperately hopeless and in need of saving (Romans 6:23). Without this foundational understanding, the Gospel message of Jesus that we’ve been inoculated to (Ephesians 2:8-9), doesn’t carry much weight because on the horizontal plane, we aren’t that bad. The Good News of the Gospel has always been, you can be a 10/10 certainty that you will go to Heaven, if your reason in the hypothetical situation God asks, “why should I let you in,” is “because Jesus” (Romans 10:9; 1 John 5:13). If your answer is “because I,” it highlights a misunderstanding of how your sin separates you from God and/or how Jesus took death row on  your behalf for the laws you broke, and the judge declared you innocent.</p>
-                `;
-                resultDiv.innerHTML = message;
-            } else {
-                alert("Please answer both questions.");
-            }
-        }
-    </script>
-    <button onclick="visitGotQuestions()">Visit GotQuestions.org</button>
-
-<script>
-    function visitGotQuestions() {
-        window.location.href = "https://www.gotquestions.org/";
-    }
-</script>
-
 </body>
 </html>
