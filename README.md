@@ -3,39 +3,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your GitHub Pages Website</title>
-    <style>
-        #github-link {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            background: #f5f5f5;
-            padding: 10px;
-            width: 100%;
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Your website content goes here -->
-
-    <!-- GitHub Pages hyperlink -->
-    <div id="github-link">
-        <a href="https://github.com/yourusername/yourrepository">View on GitHub</a>
-    </div>
-
-    <script>
-        // You can add any additional JavaScript logic here
-    </script>
-</body>
-</html>
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gospel Quiz</title>
 </head>
 <body>
