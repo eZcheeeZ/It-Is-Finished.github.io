@@ -44,3 +44,6 @@
     </script>
 </body>
 </html>
+<script>
+    document.getElementById("header").style.display = "none";
+</script>
