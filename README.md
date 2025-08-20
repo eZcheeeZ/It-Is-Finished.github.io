@@ -34,7 +34,27 @@
             if (reason !== "") {
                 const resultDiv = document.getElementById("result");
                 const message = `
-                    <p>When a sheep stands in a green pasture you will think he looks white as snow. But then it starts to snow and the pasture becomes snow covered, with no more green grass visible, and you see just how dirty he actually is. In the same way, when we compare ourselves to others horizontally, we feel righteous. I mean we haven’t done as much evil as people we’ve heard about (Luke 18:9-14). That’s us standing in the grassy hillside before it snowed. When we compare ourselves vertically, however, to Gods standard - the 10 Commandments, with humility, we finally see just how dirty we are (Romans 3:23). That's us after the snow has fallen. The 10 Commandments act as a mirror, and the realization that our hearts are wicked and deceitful beyond measure and we are desperately hopeless and in need of saving (Romans 6:23). Without this foundational understanding, the Gospel message of Jesus that we’ve been inoculated to (Ephesians 2:8-9), doesn’t carry much weight because on the horizontal plane, we aren’t that bad. The Good News of the Gospel has always been, you can be a 10/10 certainty that you will go to Heaven, if your reason in the hypothetical situation God asks, “why should I let you in,” is “because Jesus” (Romans 10:9; 1 John 5:13). If your answer is “because I,” it highlights a misunderstanding of how your sin separates you from God and/or how Jesus took death row on  your behalf for the laws you broke, and the judge declared you innocent.</p>
+                    <p>If you were a doctor, and I was your healthy looking patient unknowingly riddled with a life threatening disease, would you prescribe me medicine first or show me proof of my disease? Of course, proof of disease or else I wouldn't believe you and agree to the medicine. In the same way, in our brief moment here, I have to try to convince you of a disease plauging you or you won't understand the need for the cure. As it stands right now you think you're a "good" (healthy) person.
+
+                    This part is uncomfortable, but crucial to understand the Good News. Are you ready?
+
+
+                    1. How many lies have you told in your life? What do we call someone who tells lies? (A liar)
+                    2. Have you ever stolen something no matter how small or time from an employer? What do we call someone who steals? (A thief)
+                    3. Have you ever lusted or had sex outside of marriage?
+                    4. Have you ever taken God's name in vain and used it as a cuss word?
+
+                    Now I'm not judging you, but what you've just said is you're a blasphemous, lying, thieving, fornicating, and adulterer at heart. If God judges you based on the 10 Commandments, of which we've only examined 4, on Judgement Day will you be innocent or guilty? (Guilty). Would you go to Heaven or Hell? (Hell). Just stop... and feel the weight of that..
+
+                    Now, when Jesus said, "It is finished" before giving up His life on the cross. Why did he say that? Scripture tells us the wages of sin is death (Romans 6:23). A wage is something you earn for your actions. God has told us, what we have earned for our sin is the death sentence. In the same way that a judge in a court of law can legally declare you guiltless from your pile of speeding tickets because someone else paid on your behalf, so God can justly remove the death sentence from your head, so long as you accept Jesus' payment on your behalf. You can accept His payment, or you can pay for it yourself. There are no other options.
+
+                    That is why Jesus said, "It is finished." He was declaring for any and all who will accept it, your death sentence is paid on His behalf. You can be declared forgiven and righteous and innocent. Separation from God fully restored.
+
+                    If your answer between 0 and 10 was anything besides a 10, you need to know Jesus died for ALL your sins: past, present, and future. Not just 70% of them. All of them.
+                    And to the hypothetical why should I let you in question? The correct heart posture and answer is "because JESUS" paid on my behalf. 
+                    If your answer was "because I ___" it highlights a foundational misunderstanding of how your sin separates you from your Creator and what it cost Him to pay your fines. You couldn't earn it, you could never do it yourself, you can only accept the free gift for what it is.
+                    
+                    Lord Jesus, if they have read to this point their soul is seeking you, please let your love and peace wash over them. Save them. Right this very minute let them pass from death to life in faith in you, accepting your life laid down for them. Please continue to reveal yourself to them and draw them in with your love and kidness. Amen.</p>
                 `;
                 resultDiv.innerHTML = message;
             } else {
